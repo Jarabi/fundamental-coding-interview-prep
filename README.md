@@ -8,7 +8,7 @@
 
 ## Courses
 
-1. Revisiting Python Essentials
+1. [Revisiting Python Essentials](01-revisiting_python_essentials)
 2. Applying Simple Looping in Practice with Python
 3. Practicing String Operations and Type Conversions in Python
 4. Mastering Implementation of Advanced Loops in Python
