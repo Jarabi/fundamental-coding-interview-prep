@@ -27,11 +27,11 @@ An introductory course to revitalize your Python knowledge. Develop competency i
    - [Add Temperature Control to Weather App](17-temperature_control.py)
    - [Temperature Loop Control Challenge](18-loop_control_challenge.py)
 5. Looping Through Python Strings and Mastering Character Operations
-   - Count the Lowercase Letters in a Text
-   - Fix the String Processor
-   - Encrypting Messages with a Caesar Cipher
-   - Caesar Cipher Encryption Challenge
-   - Encrypt the Text with a Shift Cipher
+   - [Count the Lowercase Letters in a Text](19-count_lowercase.py)
+   - [Fix the String Processor](20-string_to_uppercase.py)
+   - [Encrypting Messages with a Caesar Cipher](21-caesar_cypher.py)
+   - [Caesar Cipher Encryption Challenge](22-caesar_cypher_encryption_challenge.py)
+   - [Encrypt the Text with a Shift Cipher](23-shift_cypher_encryption.py)
 6. Mastering Python String Methods and Type Conversions
    - Join Astronaut Data Using Python String Methods
    - Debug the Employee Data Formatter
