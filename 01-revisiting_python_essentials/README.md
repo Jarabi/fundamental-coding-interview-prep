@@ -21,5 +21,20 @@ An introductory course to revitalize your Python knowledge. Develop competency i
    - [Add Conditional Logic to Assemble Fruit Salad String Without Trailing Space](12-string_of_fruit_names.py)
    - [Counting Non-Vowel Characters in a String](13-count_non_vowels.py)
 4. Conditional Looping, Break, and Continue
+   - [Adjust Loop Termination Condition](14-loop_termination_condition.py)
+   - [Temperature Check Loop Debugging](15-break_statement.py)
+   - [Add Temperature Conditions to Weather Loop](16-temperature_conditions.py)
+   - [Add Temperature Control to Weather App](17-temperature_control.py)
+   - [Temperature Loop Control Challenge](18-loop_control_challenge.py)
 5. Looping Through Python Strings and Mastering Character Operations
+   - Count the Lowercase Letters in a Text
+   - Fix the String Processor
+   - Encrypting Messages with a Caesar Cipher
+   - Caesar Cipher Encryption Challenge
+   - Encrypt the Text with a Shift Cipher
 6. Mastering Python String Methods and Type Conversions
+   - Join Astronaut Data Using Python String Methods
+   - Debug the Employee Data Formatter
+   - Enhance HR Employee Data Formatting and Eligibility Assessment
+   - Add Astronaut Exploration Summary Function
+   - Processing Space Crew Data
