@@ -33,8 +33,8 @@ An introductory course to revitalize your Python knowledge. Develop competency i
    - [Caesar Cipher Encryption Challenge](22-caesar_cypher_encryption_challenge.py)
    - [Encrypt the Text with a Shift Cipher](23-shift_cypher_encryption.py)
 6. Mastering Python String Methods and Type Conversions
-   - Join Astronaut Data Using Python String Methods
-   - Debug the Employee Data Formatter
-   - Enhance HR Employee Data Formatting and Eligibility Assessment
-   - Add Astronaut Exploration Summary Function
-   - Processing Space Crew Data
+   - [Join Astronaut Data Using Python String Methods](24-string_concatenation.py)
+   - [Debug the Employee Data Formatter](25-string_formatting.py)
+   - [Enhance HR Employee Data Formatting and Eligibility Assessment](26-format-employee-data.py)
+   - [Add Astronaut Exploration Summary Function](27-astronaut_exploration_summary.py)
+   - [Processing Space Crew Data](28-process_crew_data.py)
