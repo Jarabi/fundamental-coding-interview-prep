@@ -11,10 +11,10 @@ developing your skill in real-world applications of simple loops.
    - [Pairing Numbers with their Reverse Counterparts in a List](02-reverse_counterparts.py)
    - [Summing Up Opposite Elements in an Array](03-sum_opposite_elements.py)
 2. Traversing and Summing Even Digits in an Integer
-   - Calculating Product of Odd Digits in a Number
-   - Reversing Integer Digits with a While Loop
-   - Duplicating Digits in an Integer
-   - Counting Groups of Consecutive Equal Digits in a Number
+   - [Calculating Product of Odd Digits in a Number](04-odd_digits_product.py)
+   - [Reversing Integer Digits with a While Loop](05-reverse_digits.py)
+   - [Duplicating Digits in an Integer](06-duplicate_digits.py)
+   - [Counting Groups of Consecutive Equal Digits in a Number](07-consecutive_equal_digits.py)
 3. String Character Zigzag Selection
    - String Rearrangement in Special Order
    - Circular Character Jump in a String

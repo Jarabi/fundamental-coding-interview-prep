@@ -59,6 +59,60 @@
    > element 4 equals 6, and the middle element 3 plus itself equals 6.
 
 ### Traversing and Summing Even Digits in an Integer
+
+1. Calculating Product of Odd Digits in a Number
+   > You are given an integer `n` where n ranges from 1 to 10^8, inclusive. Your task is to write a function
+   > that calculates and returns the product of the odd digits of n, `without converting n into a string`.
+
+   > For example, if n equals `43172`, the output should be `21`, because the product of the odd digits
+   > `3`, `1`, and `7` is `21`.
+
+   > Please note that if n has no odd digits, your function should return `0`.
+
+   > You are expected to solve this task by using a while loop. Good luck!
+
+2. Reversing Integer Digits with a While Loop
+   > Your task is to construct a function that accepts an integer `n` and returns the integer with
+   > the same digits as `n`, but in `reverse` order. You should implement your solution using a `while loop`.
+
+   > For instance, if the input is `12345`, the output should be `54321`.
+
+   > Keep in mind that n will always be a positive integer between 1 and 10^8.
+
+   > Do not use built-in functions that convert the integer to another data type, such as a string,
+   > to reverse it. Solve the problem purely using mathematical operations and loop constructs.
+
+   > Note that when the result has leading zeros, you should consider only the integer value
+   > (e.g., `1230` becomes `321` after the operation).
+
+3. Duplicating Digits in an Integer
+   > Your task is to implement a function that duplicates every digit in a given non-negative integer number,
+   > `n`. For example, if `n` equals `1234`, the function should return `11223344`.
+
+   > To prevent possible integer overflow, it is guaranteed that n will be a non-negative integer that does
+   > not exceed 10^4. Solve this task `without converting n into a string or performing any other type of
+   > casting`. Your job is to work strictly with integer operations.
+
+   > **Keynote:**
+   > Focus on the essence of the problem, which is processing each digit of the number independently while
+   > maintaining the digit order. There is no need to look for mathematical patterns or clever simplifications;
+   > plain and straightforward processing will suffice. Utilize the toolbox of basic programming skills:
+   > loops, conditions, and mathematical operations. Good luck!
+
+4. Counting Groups of Consecutive Equal Digits in a Number
+   > You are tasked with writing a function that takes a positive integer, `n`, as an input and returns the
+   > number of consecutive equal digits in the number. Specifically, your function should identify pairs of
+   > digits in n that are equal and consecutive and return the count of these pairs.
+
+   > For instance, if `n = 113224`, it contains two groups of consecutive equal digits: `11` and `22`.
+   > Therefore, the output should be `2`. For `n = 444`, the output should also be `2`, as there are two
+   > groups of `44` in this number.
+
+   > Keep in mind that n will be a positive integer ranging from 10^8, inclusive.
+
+   > **Note**: You are not permitted to convert the number into a string or any other iterable structure
+   > for this task. You should work directly with the number.
+
 ### String Character Zigzag Selection
 ### Iterating Through an Array from Middle to Ends
 ### Consecutive Character Grouping in Strings
