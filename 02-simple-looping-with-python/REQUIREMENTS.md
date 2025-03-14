@@ -134,4 +134,47 @@
    > string includes non-alphanumeric characters, such as `"aaa@@bb!!c#d**e"`, the output should be `"a3b2c1d1e1"`.
 
 2. Identifying Consecutive Groups of Characters in Reverse
+   > Your task is to write a Python function that takes in a string and identifies all the consecutive groups
+   > of identical characters within it, with the analysis starting from the end of the string rather than from
+   > its beginning. A group is defined as a segment of the text where the same character is repeated consecutively.
+
+   > Your function should return a list of tuples. Each tuple will consist of the repeating character and the
+   > number of its repetitions. For instance, if the input string is `"aaabbcccdde"`, the function should
+   > output: `[('e', 1), ('d', 2), ('c', 3), ('b', 2), ('a', 3)]`.
+
+   > Note that the input string cannot be empty; in other words, it must contain at least one character, and
+   > its length must not exceed 500 characters. The return should also be in reverse order, starting from the
+   > group of repeated characters at the end of the string and moving backward.
+
+   > Put your knowledge and skills into action to solve this reverse pattern identification puzzle!
+
+   3. Identifying Consecutive Pairs of Identical Characters in a String
+   >    In this task, you need to write a Python function that finds repeating two-character patterns in a string.
+   >    The function should identify when the same pair of characters appear next to each other in the string and
+   >    count how many times each pair repeats consecutively.
+
+   >    The function should return a new string that lists each pair followed by the number of times it repeats
+   >    consecutively. For example, let's break down the input string `"aaabbabbababacab"`:
+
+   >    1. Divide the string into pairs:
+   >       - `"aa"`
+   >       - `"ab"`
+   >       - `"ba"`
+   >       - `"bb"`
+   >       - `"ab"`
+   >       - `"ab"`
+   >       - `"ac"`
+   >       - `"ab"`
+   >    2. Note the consecutive pairs:
+   >       - `"ab"` appears twice consecutively in the middle.
+   >    3. Therefore, the output string will be: `"aa1ab1ba1bb1ab2ac1ab1"`.
+
+   >    Similarly, for the input string `"aaababbababaca"`, the output should be `"aa1ab2ba3ca1"`.
+
+   >    Key points to remember:
+   >    - The input string always has an even number of characters.
+   >    - The string contains only lowercase letters.
+   >    - The string length can be up to 500 characters.
+   
+   > Focus on finding consecutive repetitions of the same two-character patterns.
 

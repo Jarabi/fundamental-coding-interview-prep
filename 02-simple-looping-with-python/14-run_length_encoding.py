@@ -21,5 +21,4 @@ def encode_rle(s):
 
 if __name__ == "__main__":
     text = "aaa@@bb!!c#d**e"
-    result = encode_rle(text)
-    print(result)
+    print(encode_rle(text))  # a3b2c1d1e1

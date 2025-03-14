@@ -4,6 +4,8 @@ Dive into the application of basic looping techniques in real scenarios.
 This course will allow you to apply your Python knowledge to solve practical tasks,
 developing your skill in real-world applications of simple loops.
 
+Please read the requirements for each lesson [here](REQUIREMENTS.md).
+
 ## Lessons
 
 1. Manipulating Arrays to Find Opposite Element Pairs
@@ -25,5 +27,5 @@ developing your skill in real-world applications of simple loops.
    - Alternate Traversal of an Array from the Middle to Ends
 5. Consecutive Character Grouping in Strings
    - [Run-Length Encoding of Alphanumeric String](14-run_length_encoding.py)
-   - Identifying Consecutive Groups of Characters in Reverse
-   - Identifying Consecutive Pairs of Identical Characters in a String
+   - [Identifying Consecutive Groups of Characters in Reverse](15-reverse_consecutive_groups.py)
+   - [Identifying Consecutive Pairs of Identical Characters in a String](16-consecutive_pairs.py)
