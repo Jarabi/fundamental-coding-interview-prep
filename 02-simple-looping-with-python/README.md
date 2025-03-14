@@ -7,9 +7,9 @@ developing your skill in real-world applications of simple loops.
 ## Lessons
 
 1. Manipulating Arrays to Find Opposite Element Pairs
-   - Creating Geometric Mean Pairs from an Array
-   - Pairing Numbers with their Reverse Counterparts in a List
-   - Summing Up Opposite Elements in an Array
+   - [Creating Geometric Mean Pairs from an Array](01-geometric-mean-pairs.py)
+   - [Pairing Numbers with their Reverse Counterparts in a List](02-reverse_counterparts.py)
+   - [Summing Up Opposite Elements in an Array](03-sum_opposite_elements.py)
 2. Traversing and Summing Even Digits in an Integer
    - Calculating Product of Odd Digits in a Number
    - Reversing Integer Digits with a While Loop
@@ -24,6 +24,6 @@ developing your skill in real-world applications of simple loops.
    - Pairing Array Elements from the Middle to the Ends
    - Alternate Traversal of an Array from the Middle to Ends
 5. Consecutive Character Grouping in Strings
-   - Run-Length Encoding of Alphanumeric String
+   - [Run-Length Encoding of Alphanumeric String](14-run_length_encoding.py)
    - Identifying Consecutive Groups of Characters in Reverse
    - Identifying Consecutive Pairs of Identical Characters in a String
