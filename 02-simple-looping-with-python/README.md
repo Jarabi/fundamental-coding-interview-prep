@@ -18,9 +18,9 @@ Please read the requirements for each lesson [here](REQUIREMENTS.md).
    - [Duplicating Digits in an Integer](06-duplicate_digits.py)
    - [Counting Groups of Consecutive Equal Digits in a Number](07-consecutive_equal_digits.py)
 3. String Character Zigzag Selection
-   - String Rearrangement in Special Order
-   - Circular Character Jump in a String
-   - Reversing String Characters in Triplets
+   - [String Rearrangement in Special Order](08-special_order.py)
+   - [Circular Character Jump in a String](09-circular_character_jump.py)
+   - [Reversing String Characters in Triplets](10-triplet_character_reverse.py)
 4. Iterating Through an Array from Middle to Ends
    - Iterating Array From the Middle to Ends and Calculating Multiplication
    - Pairing Array Elements from the Middle to the Ends

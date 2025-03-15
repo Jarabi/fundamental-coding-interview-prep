@@ -114,7 +114,60 @@
    > for this task. You should work directly with the number.
 
 ### String Character Zigzag Selection
+
+1. String Rearrangement in Special Order
+   > In this task, you are given a string composed of lowercase English alphabet letters `('a' to 'z')`.
+   > The length of the string will range from `1` to `100` characters. Your challenge is to create a new
+   > string resulting from a unique order of character selection from the original string.
+
+   > You need to develop a Python function, `special_order(inputString)`, which takes `inputString` as an
+   > argument. The resulting string begins with the `last` character of the inputString, then selects the
+   > `second-to-last` character, continuing in reverse order until you reach the `middle` character of the
+   > string. Then, start with the `first` character of the inputString, proceed to the `second` character,
+   > and continue in this manner until you reach the middle character.
+
+   > For example, if the inputString is `"abcdefg"`, the function should return `"gfedabc"`.
+
+   > Keep in mind the following constraints while creating your function:
+   > - The input string contains only lowercase English letters ('a' to 'z').
+   > - The length of the input string is between 1 and 100, inclusive.
+
+2. Circular Character Jump in a String
+   > You are provided with a string of n lowercase English alphabet letters `(from 'a' to 'z')`, where n
+   > ranges from `1` to `100`, inclusive. You must create a new string by selecting characters from the
+   > given string in a specific order: select each character that comes k characters after the previous
+   > selection in the string. If you reach the end of the string, you should continue from the beginning.
+
+   > Write a Python function, `repeat_char_jump(inputString, step)`. The function takes two parameters:
+   > `inputString` and `step`, where inputString is the string you are working with, and step is an integer
+   > that denotes the number of characters to skip with each jump. The value of step ranges from 1 to the
+   > length of the input string. The function should return a newly formed string consisting of characters
+   > selected in the order dictated by the jump length `step`.
+
+   > For example, if `inputString` is `"abcdefg"` and `step` is `3`, the function should return `"adgcfbe"`.
+   > This is because after `'a'`, comes `'d'` (3 characters after `'a'`), followed by `'g'` (3 characters
+   > after `'d'`, circling back to the start of the string after `'g'`), and so on.
+
+   > Note: You should continue jumping from the start of the string when you reach the end.
+
+3. Reversing String Characters in Triplets
+   > In this task, you are given a string `s`, and your goal is to produce a new string following a specific
+   > pattern. You are to take characters in sets of three, reverse the characters in each set, and then place
+   > them back into the string in their original positions, preserving the reverse order within each set. If
+   > 1 or 2 characters remain at the end (because the length of the string is not divisible by 3), they should
+   > be left as they are.
+
+   > The string `s` contains only lowercase English letters, with its length ranging from 1 to 300, inclusive.
+
+   > For example, if you are given the input `'abcdef'`, the output should be `'cbafed'`. For the input
+   > `'abcdefg'`, your function should provide `'cbafedg'`.
+
 ### Iterating Through an Array from Middle to Ends
+
+1. Iterating Array From the Middle to Ends and Calculating Multiplication
+2. Pairing Array Elements from the Middle to the Ends
+3. Alternate Traversal of an Array from the Middle to Ends
+
 ### Consecutive Character Grouping in Strings
 
 1. Run-Length Encoding of Alphanumeric String
@@ -175,6 +228,6 @@
    >    - The input string always has an even number of characters.
    >    - The string contains only lowercase letters.
    >    - The string length can be up to 500 characters.
-   
+
    > Focus on finding consecutive repetitions of the same two-character patterns.
 
