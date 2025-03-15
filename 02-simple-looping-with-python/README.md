@@ -22,9 +22,9 @@ Please read the requirements for each lesson [here](REQUIREMENTS.md).
    - [Circular Character Jump in a String](09-circular_character_jump.py)
    - [Reversing String Characters in Triplets](10-triplet_character_reverse.py)
 4. Iterating Through an Array from Middle to Ends
-   - Iterating Array From the Middle to Ends and Calculating Multiplication
-   - Pairing Array Elements from the Middle to the Ends
-   - Alternate Traversal of an Array from the Middle to Ends
+   - [Iterating Array From the Middle to Ends and Calculating Multiplication](11-outward_product.py)
+   - [Pairing Array Elements from the Middle to the Ends](12-outward_pairs.py)
+   - [Alternate Traversal of an Array from the Middle to Ends](13-unusual_traversal.py)
 5. Consecutive Character Grouping in Strings
    - [Run-Length Encoding of Alphanumeric String](14-run_length_encoding.py)
    - [Identifying Consecutive Groups of Characters in Reverse](15-reverse_consecutive_groups.py)
