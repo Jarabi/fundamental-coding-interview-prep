@@ -1,6 +1,9 @@
 # Revisiting Python Essentials
 
-An introductory course to revitalize your Python knowledge. Develop competency in Python syntax, string operations, and looping techniques, setting a robust platform for tackling basic programming issues.
+An introductory course to revitalize your Python knowledge. Develop competency in Python syntax, string
+operations, and looping techniques, setting a robust platform for tackling basic programming issues.
+
+<kbd>6 lessons</kbd> <kbd>28 practices</kbd>
 
 ## Lessons
 

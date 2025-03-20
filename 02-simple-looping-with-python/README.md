@@ -6,6 +6,8 @@ developing your skill in real-world applications of simple loops.
 
 Please read the requirements for each lesson [here](REQUIREMENTS.md).
 
+<kbd>5 lessons</kbd> <kbd>16 practices</kbd>
+
 ## Lessons
 
 1. Manipulating Arrays to Find Opposite Element Pairs
