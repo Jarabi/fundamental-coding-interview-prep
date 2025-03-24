@@ -10,9 +10,9 @@ Please read the requirements for each lesson [here](REQUIREMENTS.md).
 ## Lessons
 
 1. Manipulating Strings: Reversing Words in a Sentence
-   - Rotating Characters in Words of a String
-   - Transforming Words with English Alphabet's Opposite Characters
-   - Capitalizing and Lowercasing String Words
+   - [Rotating Characters in Words of a String](01-rotate_characters.py)
+   - [Transforming Words with English Alphabet's Opposite Characters](02-opposite_characters.py)
+   - [Capitalizing and Lowercasing String Words](03-transform_case.py)
 2. Parsing and Multiplying Numeric Values in Strings
    - Parsing and Converting Words in a String
    - Parsing Sports Records: Calculating Sum of Scores
