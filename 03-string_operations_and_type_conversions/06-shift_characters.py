@@ -2,14 +2,15 @@ def solution(input_string):
     shifted, num = [], ""
 
     for char in input_string:
-        if not (num and not char.isalnum()):
-            if char.isdigit():
-                num += char
-            elif num and char.isalpha():
-                shifted.append(f"{char}{num}")
-                num = ""
-            else:
-                shifted.append(char)
+        if char.isdigit():
+            num += char
+        elif num and char.isalpha():
+            shifted.append(f"{char}{num}")
+            num = ""
+        elif num and not char.isalnum():
+            continue
+        else:
+            shifted.append(char)
     return ''.join(shifted)
 
 
