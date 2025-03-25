@@ -14,9 +14,9 @@ Please read the requirements for each lesson [here](REQUIREMENTS.md).
    - [Transforming Words with English Alphabet's Opposite Characters](02-opposite_characters.py)
    - [Capitalizing and Lowercasing String Words](03-transform_case.py)
 2. Parsing and Multiplying Numeric Values in Strings
-   - Parsing and Converting Words in a String
-   - Parsing Sports Records: Calculating Sum of Scores
-   - Shifting Characters within a String Following Numerical Values
+   - [Parsing and Converting Words in a String](04-parsing_words.py)
+   - [Parsing Sports Records: Calculating Sum of Scores](05-sum_of_scores.py)
+   - [Shifting Characters within a String Following Numerical Values](06-shift_characters.py)
 3. Parsing and Calculating Seconds from Time Strings in Python
    - Adding Seconds to Time Points
    - Calculating the Length of a Time Period in Minutes

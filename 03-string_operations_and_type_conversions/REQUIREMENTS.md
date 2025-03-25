@@ -75,8 +75,66 @@
 ### Parsing and Multiplying Numeric Values in Strings
 
 1. Parsing and Converting Words in a String
+   > Let's imagine you are given a string that contains a series of words separated by a hyphen ("-"). Each
+   > word in the string can be a lowercase letter from 'a' to 'z' or a set of digits representing a number from
+   > 1 to 26. Your task is to parse this string and swap the type of each word: convert numbers into their
+   > corresponding English alphabet letters, and letters into their numerical equivalents. This means '1' should
+   > convert to 'a', and 'a' should convert to '1'.
+
+   > You need to return a new string with the converted words, rejoined with hyphens.
+
+   > Ensure you maintain the original order of the words from the input string in your output string.
+
+   > The input string's length should range from 1 to 1000 for this exercise. The string will never be empty,
+   > always containing at least one valid lowercase letter or numerical word.
+
+   > Remember, the transformation of words should be limited to converting numbers from 1 to 26 into their
+   > corresponding letters from 'a' to 'z', and vice versa.
+
+   > **Example**  
+   For the input string `"1-a-3-c-5"`, the output should be `"a-1-c-3-e"`.
+
 2. Parsing Sports Records: Calculating Sum of Scores
+   > You are given a string `s` of length `n`, with `n` ranging from `1` to `500` inclusive. This string 
+   > represents the complex and jumbled record of a sports game. It combines player names and scores but lacks
+   > a uniform structure. The player names consist of words made up of lowercase English alphabets (`a`-`z`),
+   > while the scores are integers ranging from 1 to 100 inclusive.
+
+   > Your mission involves writing a Python function that should parse the given string, isolate the integers
+   > representing player scores, and return the sum of these scores.
+
+   > For instance, for the input string, `"joe scored 5 points, while adam scored 10 points and bob scored 2,
+   > with an extra 1 point scored by joe"`, your function should return the sum `5 + 10 + 2 + 1`, which totals 18.
+
 3. Shifting Characters within a String Following Numerical Values
+   > You are provided with a string of alphanumeric characters in which each number, regardless of the number of
+   > digits, is always followed by at least one alphabetic character before the next number appears. The task
+   > requires you to return a transformed version of the string wherein the first alphabetic character following
+   > each number is moved to a new position within the string and characters in between are removed.
+
+   > Specifically, for each number in the original string, identify the next letter that follows it, and then
+   > reposition that character to directly precede the number. All spaces and punctuation marks between the
+   > number and the letter are removed.
+
+   > The length of the string `s` ranges from 3 to 10^6 (inclusive), and the string contains at least one number.
+   > The numbers in the string are all integers and are non-negative.
+
+   > Here is an example for better understanding:  
+   > Given the string:
+   > 
+   > `"I have 2 apples and 5! oranges and 3 grapefruits."`  
+   > 
+   > The function should return:
+   >
+   > `"I have a2pples and o5ranges and g3rapefruits."`
+   
+   > In this instance, the character 'a' following the number 2 is moved to come before the 2, the 'o' succeeding
+   > the 5 is placed before the 5, and the 'g' subsequent to the 3 is repositioned to precede the 3. Punctuation
+   > marks and spaces in between are removed.
+   
+   > Please note that the operation should maintain the sequential order of the numbers and the rest of the text.
+   > Considering this, the task is not solely about dividing a string into substrings but also about modifying
+   > them. This will test your expertise in Python string operations and type conversions.
 
 ### Parsing and Calculating Seconds from Time Strings in Python
 
