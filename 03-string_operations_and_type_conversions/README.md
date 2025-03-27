@@ -18,9 +18,9 @@ Please read the requirements for each lesson [here](REQUIREMENTS.md).
    - [Parsing Sports Records: Calculating Sum of Scores](05-sum_of_scores.py)
    - [Shifting Characters within a String Following Numerical Values](06-shift_characters.py)
 3. Parsing and Calculating Seconds from Time Strings in Python
-   - Adding Seconds to Time Points
-   - Calculating the Length of a Time Period in Minutes
-   - Calculating New Date Given Number of Days
+   - [Adding Seconds to Time Points](07-add_seconds_to_time_points.py)
+   - [Calculating the Length of a Time Period in Minutes](08-calculate_length_of_time_period.py)
+   - [Calculating New Date Given Number of Days](09-add_days.py)
 4. Exploring Substring Search in Python Strings
    - Replacing Substring in a Text
    - Reverse Word Instances in Sentences
