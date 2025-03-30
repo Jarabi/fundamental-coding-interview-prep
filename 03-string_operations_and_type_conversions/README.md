@@ -22,6 +22,6 @@ Please read the requirements for each lesson [here](REQUIREMENTS.md).
    - [Calculating the Length of a Time Period in Minutes](08-calculate_length_of_time_period.py)
    - [Calculating New Date Given Number of Days](09-add_days.py)
 4. Exploring Substring Search in Python Strings
-   - Replacing Substring in a Text
-   - Reverse Word Instances in Sentences
-   - Spotting Swapped Characters in Strings
+   - [Replacing Substring in a Text](10-replace_substring.py)
+   - [Reverse Word Instances in Sentences](11-reverse_word_instances.py)
+   - [Spotting Swapped Characters in Strings](12-spot_swapped_characters.py)

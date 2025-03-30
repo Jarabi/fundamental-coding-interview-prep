@@ -211,6 +211,86 @@
 ### Exploring Substring Search in Python Strings
 
 1. Replacing Substring in a Text
+   > Imagine you are working on a new feature for a text processing application. The feature requires you to provide
+   > users with the option to replace all occurrences of a certain substring in the entered text with a new substring.
+   >
+   > You are tasked with writing a function, `replace_substring(text: str, old: str, new: str) -> str`, that does the
+   > following:
+   >
+   > - Accepts as input `text` (a string of length `n`, where `1 ≤ n ≤ 500`, which includes only lowercase alphabets
+   > and spaces), `old` (a string of length `k`, where `1 ≤ k ≤ n`, which includes only lowercase alphabets), and `new`
+   > (a string of length `m`, where `1 ≤ m ≤ 500`, which includes only lowercase alphabets).
+   >
+   > - Replaces every occurrence of the string `old` in `text` with the string `new`.
+   >
+   > - Returns the updated `text` string with all replaced substrings.
+   >
+   > Please ensure that the case of the letters remains consistent during the process, meaning an uppercase letter
+   > should be replaced with an uppercase letter, and a lowercase letter should be replaced with a lowercase one.
+   >
+   > For instance, your function might be called as follows:
+   >
+   > ```python
+   > replace_substring("hello world", "world", "friend")
+   > ```
+   > In this case, the output would be:
+   > ```
+   > "hello friend"
+   > ```
+   > This is because there is one occurrence of the substring 'world' in the string. This occurrence is replaced by
+   > 'friend', resulting in the return value "hello friend".
+
 2. Reverse Word Instances in Sentences
+   > You are given two lists, `sentences` and `words`, each comprising `n strings`, where n ranges from  **1** to
+   > **100** inclusive. Each string in the `sentences` list has a length ranging from **1** to **500** inclusive.
+   > Each `word` in the `words` list is a single lowercase English alphabet word of length *1* to **10** inclusive.
+   > 
+   > Your task is to find all instances of each word in the corresponding sentence from the `sentences` list and
+   > replace them with the reverse of the word. The words and sentences at the same index in their respective lists
+   > are deemed to correspond to each other.
+   > 
+   > Return a new list comprising `n strings`, where each `string` is the sentence from the `sentences` list at the
+   > corresponding index, with all instances of the word from the `words` list at the same index replaced with its
+   > reverse.
+   > 
+   > If the `word` is not found in the respective sentence, keep the sentence as it is.
+   > 
+   > Remember, while replacing the instances of `word` in the sentence, you should preserve the case of the initial
+   > letter of the word. If a word starts with a capital letter in the sentence, its reversed form should also start
+   > with a capital letter.
+   > 
+   > **Example**
+   >
+   > For `sentences = ['this is a simple example.', 'the name is bond. james bond.', 'remove every single e']` and
+   > `words = ['simple', 'bond', 'e']`, the output should be `['this is a elpmis example.', 'the name is dnob. james
+   > dnob.', 'remove every single e']`.
+
 3. Spotting Swapped Characters in Strings
+   > Humans often make mistakes when they are typing quickly. In some cases, they may press two keys simultaneously,
+   > resulting in swapped characters in the text. Your task is to craft a Python function that helps identify such
+   > typos. Specifically, you are asked to construct a function called s`pot_swaps(source: str, target: str) -> 
+   > List[Tuple[int, str, str]]` that behaves as follows:
+   > 
+   > Given two strings, `source` and `target`, of the same length `n` (1 ≤ `n` ≤ 500), inclusive, both comprise only
+   > lowercase English letters. The function should return a list of tuples. Each tuple should contain three elements:
+   > the zero-based index of the swap in the `source` string, the character (a string of length 1) at that index in
+   > `source`, and the character that swapped places with the source character in `target`.
+   > 
+   > In other words, go over both strings simultaneously and, for each character from `source` and `target` at
+   > position i, find situations when `source[i] != target[i]` and `source[i+1] = target[i]` and `source[i] =
+   > target[i+1]`. This implies that the characters at positions `i` and `i+1` in the `source` string swapped places
+   > in the `target` string.
+   > 
+   > **Note:**
+   > 
+   > - Characters can be swapped at most once.
+   > - The swapped character pairs should be returned in a list in the order they were found (from the string start
+   > - to end).
+   > - Don't check for swaps at the last position of a string, since there is no character with which to swap.
+   >
+   > **Example**
+   > 
+   > For `source = "hello"` and `target = "hlelo"`, the output should be `[(1, 'e', 'l')]`.
+   > 
+   > Good luck!
 
