@@ -1,4 +1,4 @@
-# Applying Simple Looping in Practice with Python
+# Practicing String Operations and Type Conversions in Python
 
 ## Requirements
 
